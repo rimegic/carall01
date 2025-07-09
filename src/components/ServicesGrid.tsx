@@ -10,7 +10,7 @@ const services: Service[] = [
   {
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-12 h-12 text-blue-600">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 7.5l.415-.207a.75.75 0 011.085.67V10.5m0 0h6m-6 0a.75.75 0 001.085.67l.416-.207m-1.5-2.083a.75.75 0 01-1.085.67V10.5m1.5 0a.75.75 0 00-1.085.67l-.416-.207m0 0l-.415.207A.75.75 0 016 10.5v-1.5a.75.75 0 01.75-.75h3.75a.75.75 0 01.75.75v1.5m0 0l.416.207a.75.75 0 001.085-.67v-1.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75v1.5m6 0a.75.75 0 00.75-.75v-1.5a.75.75 0 01.75-.75h3.75a.75.75 0 01.75.75v1.5m0 0l-.416.207a.75.75 0 01-1.085-.67v-1.5a.75.75 0 01.75-.75h3a.75.75 0 01.75.75v1.5" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375M7.5 4.5h7.5m-7.5 0h-1.5m8.25 0h-1.5M10.5 18.75H21m-3-2.25l-3.65-6.25a1.5 1.5 0 00-1.35-.75h-3.65a1.5 1.5 0 00-1.35.75L6 16.5m-6-6h2.25m11.25 0h4.5m-11.25 0L10.5 4.5m-6 6L6 16.5" />
       </svg>
     ),
     title: "신차견적",
@@ -19,7 +19,7 @@ const services: Service[] = [
   {
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-12 h-12 text-blue-600">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068M15.75 21a9 9 0 11-3.75-3.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375M7.5 4.5h7.5m-7.5 0h-1.5m8.25 0h-1.5M10.5 18.75H21m-3-2.25l-3.65-6.25a1.5 1.5 0 00-1.35-.75h-3.65a1.5 1.5 0 00-1.35.75L6 16.5m-6-6h2.25m11.25 0h4.5m-11.25 0L10.5 4.5m-6 6L6 16.5" />
       </svg>
     ),
     title: "중고차",
