@@ -10,7 +10,7 @@ const services: Service[] = [
   {
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-12 h-12 text-blue-600">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375M7.5 4.5h7.5m-7.5 0h-1.5m8.25 0h-1.5M10.5 18.75H21m-3-2.25l-3.65-6.25a1.5 1.5 0 00-1.35-.75h-3.65a1.5 1.5 0 00-1.35.75L6 16.5m-6-6h2.25m11.25 0h4.5m-11.25 0L10.5 4.5m-6 6L6 16.5" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 21h2.25m-2.25 0h-1.5m-1.5 0H5.25m-1.5 0h-1.5M2.25 18.75V5.25a2.25 2.25 0 012.25-2.25h10.5a2.25 2.25 0 012.25 2.25v13.5a2.25 2.25 0 01-2.25 2.25H4.5a2.25 2.25 0 01-2.25-2.25z" />
       </svg>
     ),
     title: "신차견적",
