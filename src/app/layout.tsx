@@ -24,7 +24,7 @@ export default function RootLayout({
     <html lang="ko">
       <body className={notoSans.className}>
         {children}
-        <ContactWidget />
+        {/* <ContactWidget /> */}
       </body>
     </html>
   );
