@@ -3,8 +3,6 @@ import { Noto_Sans_KR } from "next/font/google";
 import "./globals.css";
 import ContactWidget from "@/components/ContactWidget";
 
-export const runtime = 'edge';
-
 const notoSans = Noto_Sans_KR({ 
   subsets: ["latin"],
   weight: ['400', '700'],
