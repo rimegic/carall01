@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-// import { Noto_Sans_KR } from "next/font/google";
-// import "./globals.css";
+import { Noto_Sans_KR } from "next/font/google";
+import "./globals.css";
 import ContactWidget from "@/components/ContactWidget";
 
-// const notoSans = Noto_Sans_KR({ 
-//   subsets: ["latin"],
-//   weight: ['400', '700'],
-// });
+const notoSans = Noto_Sans_KR({ 
+  subsets: ["latin"],
+  weight: ['400', '700'],
+});
 
 export const metadata: Metadata = {
   title: "카올(Car All) - 내 차의 모든 것",
@@ -20,11 +20,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
-      {/* <body className={notoSans.className}> */}
-      <body>
+      <body className={notoSans.className}>
         {children}
-        {/* <ContactWidget /> */}
+        <ContactWidget />
       </body>
     </html>
   );
-} 
+}
