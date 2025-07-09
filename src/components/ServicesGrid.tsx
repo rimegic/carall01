@@ -18,8 +18,8 @@ const services: Service[] = [
   },
   {
     icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-12 h-12 text-blue-600">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375M7.5 4.5h7.5m-7.5 0h-1.5m8.25 0h-1.5M10.5 18.75H21m-3-2.25l-3.65-6.25a1.5 1.5 0 00-1.35-.75h-3.65a1.5 1.5 0 00-1.35.75L6 16.5m-6-6h2.25m11.25 0h4.5m-11.25 0L10.5 4.5m-6 6L6 16.5" />
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-12 h-12 text-blue-600">
+        <path fillRule="evenodd" d="M1.5 6A2.25 2.25 0 013.75 3.75h.879a2.25 2.25 0 012.15 1.586l.524 1.747A2.25 2.25 0 009.75 9.75h4.5a2.25 2.25 0 002.15-1.586l.525-1.747A2.25 2.25 0 0120.25 3.75h.879a2.25 2.25 0 012.25 2.25v10.5a2.25 2.25 0 01-2.25 2.25H3.75A2.25 2.25 0 011.5 16.5V6zM3 12.75a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H3.75a.75.75 0 01-.75-.75v-.008zm16.5 0a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75h-.008a.75.75 0 01-.75-.75v-.008z" clipRule="evenodd" />
       </svg>
     ),
     title: "중고차",
