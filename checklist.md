@@ -21,7 +21,8 @@
     - [x] **결과**: `runtime = 'edge'`가 없는 동적 라우트(/admin/news/[id])로 인해 빌드 실패.
 
 - [x] **5단계: 동적 라우트에 Edge 런타임 적용**
-    - [x] Cloudflare의 요구사항에 따라 `/admin/news/[id]/page.tsx`에 `export const runtime = 'edge';` 추가. → **(진행중)**
+    - [x] Cloudflare의 요구사항에 따라 `/admin/news/[id]/page.tsx`에 `export const runtime = 'edge';` 추가 → **빌드 실패**
+    - [ ] `"use client"` 지시어 순서 오류 수정 → **(진행중)**
     - [ ] **목표**: Cloudflare 배포 빌드 오류를 해결합니다.
 
 - [ ] **6단계: 최종 코드 원복 및 배포**
